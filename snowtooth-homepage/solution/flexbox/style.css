@@ -1,0 +1,165 @@
+body {
+    background:#f1f7f5;
+    font-size: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul>li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    outline: none;
+    border:none;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0 0 0.1em;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+h1, h2, #related h3, form h3 {
+    display: none;
+}
+
+#wrapper {
+    width: 100%;
+    max-width: 1000px;
+    /* remove auto margins */
+}
+
+header {
+    height: 135px;
+    background-color: white;
+}
+
+#related {
+    background-color: #c2dde4;
+    color: #7462B6;
+    height: 45px;
+}
+
+#related ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+#related ul>li {
+    float: left;
+    padding-left: 0.7em;
+}
+
+#related a {
+    text-decoration: none;
+    margin-top: 4px;
+    position: relative;
+    top: 12px;
+}
+
+#related a:hover{
+    text-decoration: underline;
+}
+
+form {
+    float: right;
+    padding: 1em;
+}
+
+
+header>img:last-child {
+    position: relative;
+    top: 14px;
+}
+
+nav {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    width: 100%;
+    height: 32px;
+    background-color: #3600B6;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+nav a:last-child {
+    border-right: none;
+}
+
+/* Image */
+#main-image {
+    height: 324px;
+    background-image:url('http://www.moonhighway.com/class/assets/snowtooth/SliderImage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#main-image>p {
+    color: green;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 3em;
+    width: 366px;
+}
+
+#calendar {
+    position: relative;
+    display: block;
+    background-color: #c1dce3;
+    height: 21.85em;
+    width: 90%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#calendar div {
+    width: 131px;
+    background-color: #EEE;
+    min-height: 170px;
+}
+
+#calendar div>h1 {
+    position: relative;
+    top: -13px;
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Gruppo', cursive;
+    font-size: 1.5em;
+}
+
+#calendar div>p {
+    font-size: .8em;
+    margin: .4em;
+}
+
+footer {
+    font-size: .5em;
+    display: flex;
+    justify-content: center;
+}
+

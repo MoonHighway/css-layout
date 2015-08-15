@@ -1,0 +1,89 @@
+/* Page Styles */
+
+body {
+    background:#f1f7f5;
+    font-size: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+/* Text Elements */
+ul>li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    outline: none;
+    border:none;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0 0 0.1em;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+h1, h2, #related h3, form h3 {
+    display: none;
+}
+
+#calendar div>p {
+    font-size: .8em;
+    margin: .4em;
+}
+
+/* TODO : Style wrapper */
+
+/* TODO : Style header */
+
+/* TODO : Style Header Related Links */
+
+/* TODO : Style Header Search Form */
+
+/* TODO : Style Nav */
+
+/* TODO : Style Nav Links */
+
+
+/* TODO : Style Main Image */
+#main-image {
+    background-image:url('http://www.moonhighway.com/class/assets/snowtooth/SliderImage.jpg');
+}
+
+/* TODO : Style Main Image Slogan */
+
+/* TODO : Style Calendar */
+#calendar {
+    background-color: #c1dce3;
+}
+
+/* TODO : Style Calendar Sections */
+
+#calendar div {
+    background-color: #EEE;
+}
+
+/* TODO : Tweak Heading Positions */
+
+#calendar div>h1 {
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Gruppo', cursive;
+    font-size: 1.5em;
+}
+
+/* TODO : Style Calendar Footer */
+
+footer {
+    width: 80%;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .5em;
+}
+
