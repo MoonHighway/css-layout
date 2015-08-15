@@ -2,7 +2,7 @@ Layout the Car Bingo Card
 ========================
 Add Flexbox CSS layout for the car bingo card.
 
-* [Demo](http://jsbin.com/tekolo/1/edit?html,css)
+* [Demo](http://jsbin.com/tekolo/1/quiet)
 * [Start](http://jsbin.com/tekolo/3/edit?html,css,output)
 
 Hint - Steps
