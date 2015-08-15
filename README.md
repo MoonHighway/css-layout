@@ -5,10 +5,9 @@ text can be handled to address the challenges of variable screensizes and realit
 
 Topics
 ------
-* Selectors
+* Advanced Selection
+* Images and Text
 * Box Model and Positioning
-* Text Sizing
-* Vendor Prefixes
-* Flexbox
 * Effects and Filters
+* Flexbox
 * Javascript Integration
