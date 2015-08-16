@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <meta name="keywords" content="ski, snowboard, mountain, fun, snowtooth, resort, winter, play" />
+    <title>Skier Profile</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<form id="skier-pro" method="POST" action="http://www.moonhighway.com/form-submit">
+    <h1>Skier Profile</h1>
+    <div>
+        <label>First Name:</label>
+        <input type="text" required="required" name="firstname" id="firstname" autofocus="autofocus" />
+    </div>
+    <div>
+        <label>Last Name:</label>
+        <input type="text" required="required" name="lastname" id="lastname"/>
+    </div>
+    <div>
+        <label>Email:</label>
+        <input type="email" required="required" name="email" id="email" />
+    </div>
+    <div>
+        <label>Website:</label>
+        <input type="url" required="required" id="website" name="website" />
+    </div>
+    <fieldset>
+        <legend>Skier Info</legend>
+        <label>How stoked?</label>
+        Bummed
+        <input type="range" min="1" max="10" step="1" id="stoke-scale" name="stoke-scale" />
+        Stoked
+        <label>What color is your jacket?</label>
+        <input type="color" id="jacket-color" name="jacket-color" />
+        <label for="brand">Which skis do you ski with?</label>
+        <input list="brand" />
+        <datalist id="brand" name="brand">
+            <option value="Rossignol">
+            <option value="Moment">
+            <option value="Salomon">
+            <option value="Head">
+            <option value="K2">
+            <option value="Praxis">
+        </datalist>
+    </fieldset>
+    <fieldset>
+        <legend>Special Skills:</legend>
+        <input type="checkbox" name="skills" value="sending">Sending Cliffs<br />
+        <input type="checkbox" name="skills" value="charging">Charging Blue Ice <br />
+        <input type="checkbox" name="skills" value="skimming">Skimming Ponds <br />
+        <input type="checkbox" name="skills" value="data-entry">Entering Data <br />
+        <input type="checkbox" name="skills" value="cooking">Cooking Healthy Lunches <br />
+        <input type="checkbox" name="skills" value="portuguese">Speaking Portuguese - Beginner <br />
+        <input type="checkbox" name="skills" value="playing-guitar">Playing Guitar <br />
+        <input type="checkbox" name="skills" value="ice-sculpture">Ice Sculpture Making <br />
+        <input type="checkbox" name="skills" value="chowdering">Turning Powder into Chowder <br />
+    </fieldset>
+    <button id="submit-button">Submit Profile Info</button>
+</form>
+</body>
+</html>
