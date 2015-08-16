@@ -11,6 +11,7 @@ Requirements
 1. Add a background that covers the page: http://www.moonhighway.com/class/assets/img/alpine-trees.jpg
 2. Make the form nice.  Center it, add a background, maybe a little transparency, some padding?
 3. Layout and space the labels, inputs, and fieldsets
+4. Add field focus indicators, so the user knows which field has the focus
 4. Add validation indicators, visually indicate which fields are valid and invalid
 
 __red X URI__
