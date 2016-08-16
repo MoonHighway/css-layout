@@ -44,4 +44,3 @@ Topics
 
 * [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Examples (1-5)](http://jsbin.com/rivawa/5/edit?html,css,output)
-* [sample - to Grid (1-4)](http://jsbin.com/geponu/1/edit?html,css,output)
