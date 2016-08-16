@@ -25,7 +25,7 @@ Topics
 
 ### Box Model Positioning
 
-* [barley fitz positions](http://www.barelyfitz.com/screencast/html-training/css/positioning/)
+* [barely fitz positions](http://www.barelyfitz.com/screencast/html-training/css/positioning/)
 * [box positions (1, 2)](http://jsbin.com/tilarag/1/edit?html,css,output)
 
 
